@@ -18,3 +18,31 @@
 
 }
 
+h1 {
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+button, a, p, span {
+    font-family: 'Inter';
+    font-weight: 300;
+}
+
+
+
+
