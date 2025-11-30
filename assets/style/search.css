@@ -1,9 +1,22 @@
 
 
 .search__container {
-    margin: 0 auto;
     width: 700px;
 }   
 .search__input {
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .search__container {
+        width: 600px
+
+    }
+
+}
+
+@media (max-width: 360px) {
+    .search__container {
+        width: 300px;
+    }   
 }
