@@ -32,6 +32,8 @@ h1, h2, h3, h4 {
 h1 {
     font-family: 'Orbitron';
     font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
 }
 
 h2 {
@@ -99,7 +101,7 @@ button, a, p, span {
     gap: 20px;
 }
 
-.gabSmall {
+.gapSmall {
     gap: 20px;
 }
 
