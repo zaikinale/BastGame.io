@@ -1,0 +1,36 @@
+
+
+.slider__slide {
+    display: none;
+    padding: 20px;
+    width: 1400px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.slider__slide--active {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../media/game_img/withere3_game.jpg');
+}
+
+.slider__desc {
+    width: 400px;
+}
+
+
+.slider__control {
+}
+
+.slider__btn {
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg);
+    opacity: 0.5;
+}
+
+.slider__btn--active {
+    opacity: 1;
+}

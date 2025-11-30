@@ -6,6 +6,7 @@
 @import url('./new.css');
 @import url('./fonts.css');
 @import url('./partners.css');
+@import url('./slider.css');
 
 :root {
     --title-color:  black;
@@ -101,6 +102,7 @@ button, a, p, span {
 .gabSmall {
     gap: 20px;
 }
+
 
 
 
