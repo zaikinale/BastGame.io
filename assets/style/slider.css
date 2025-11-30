@@ -13,7 +13,7 @@
 .slider__slide--active {
     display: flex;
     flex-direction: column;
-    background-image: url('../media/game_img/withere3_game.jpg');
+    background-image: url('../media/game_img/slime_game.jpg');
 }
 
 .slider__desc {
