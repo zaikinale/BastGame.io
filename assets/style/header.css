@@ -11,17 +11,22 @@
     object-fit: contain;
 }
 
-
 .nav__container {
     padding: 10px;
 }
+
 .nav__img {
     width: 20px;
     height: inherit;
     object-fit: contain;
 }
 
-.new__star {
-    width: 20px;
-    height: 20px;
+@media (max-width: 360px) {
+    .header {
+        padding: 5px;
+    }
+
+    .nav {
+        display: none;
+    }
 }

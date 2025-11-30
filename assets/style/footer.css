@@ -6,3 +6,12 @@
     padding: 10px 40px;
 }
 
+.subInfo {
+    flex-direction: column;
+}
+
+@media (max-width: 360px) {
+    .footer {
+        padding: 5px;
+    }
+}

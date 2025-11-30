@@ -1,4 +1,3 @@
-
 .new__container {
     width: 100%;
 }
@@ -12,4 +11,9 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+.new__star {
+    width: 20px;
+    height: 20px;
 }
