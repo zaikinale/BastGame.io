@@ -20,6 +20,9 @@
     height: inherit;
     object-fit: contain;
 }
+.header__menu {
+    display: none;
+}
 
 @media (max-width: 700px) {
     .header {
@@ -28,5 +31,9 @@
 
     .nav {
         display: none;
+    }
+
+    .header__menu {
+        display: block;
     }
 }

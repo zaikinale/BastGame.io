@@ -27,7 +27,7 @@
     opacity: 0.5;
 }
 
-.slider__btn--active {
+.slider__btn--active, .slider__btn--main {
     opacity: 1;
 }
 

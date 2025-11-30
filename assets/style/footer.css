@@ -9,9 +9,15 @@
 .footer__subInfo {
     flex-direction: column;
 }
+.footer__menu {
+    display: none;
+}
 
 @media (max-width: 700px) {
     .footer {
         padding: 5px;
+    }
+    .footer__menu {
+        display: block;
     }
 }
