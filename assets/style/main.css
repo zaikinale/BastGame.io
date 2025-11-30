@@ -21,6 +21,7 @@
     list-style: none;
     border: none;
     background: none;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -55,11 +56,14 @@ button, a, p, span {
 
 .container {
     padding: 30px 20px;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .block {
     background-color: var(--block-color);
     padding: 10px 10px;
+    border: 2px solid var(--text-color);
 }
 
 .df {
@@ -97,8 +101,6 @@ button, a, p, span {
 .gabSmall {
     gap: 20px;
 }
-
-
 
 
 

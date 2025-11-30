@@ -1,0 +1,11 @@
+.logotype__img {
+    width: 60px;
+    height: inherit;
+    object-fit: contain;
+}
+
+.nav__img {
+    width: 30px;
+    height: inherit;
+    object-fit: contain;
+}
