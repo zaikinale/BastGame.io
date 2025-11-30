@@ -7,6 +7,12 @@
 @import url('./fonts.css');
 @import url('./partners.css');
 
+:root {
+    --title-color:  black;
+    --text-color: rgb(47, 47, 47);
+    --block-color: gray;
+    --bg: white;
+}
 
 * {
     margin: 0;
@@ -15,7 +21,10 @@
     list-style: none;
     border: none;
     background: none;
+}
 
+h1, h2, h3, h4 {
+    color: var(--title-color);
 }
 
 h1 {
@@ -39,9 +48,58 @@ h4 {
 }
 
 button, a, p, span {
+    color: var(--text-color);
     font-family: 'Inter';
     font-weight: 300;
 }
+
+.container {
+    padding: 30px 20px;
+}
+
+.block {
+    background-color: var(--block-color);
+    padding: 10px 10px;
+}
+
+.df {
+    display: flex;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.brBig {
+    border-radius: 20px;
+}
+
+.brSmall {
+    border-radius: 10px;
+}
+
+.gapBig {
+    gap: 20px;
+}
+
+.gabSmall {
+    gap: 20px;
+}
+
+
+
 
 
 
