@@ -116,8 +116,10 @@ button, a, p, span {
     gap: 20px;
 }
 
-
-
+.btn {
+    padding: 10px 20px;
+    background-color: var(--bg);
+}
 
 
 

@@ -11,6 +11,10 @@
     object-fit: contain;
 }
 
+
+.nav__container {
+    padding: 10px;
+}
 .nav__img {
     width: 20px;
     height: inherit;
