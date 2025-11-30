@@ -11,7 +11,7 @@
 :root {
     --title-color:  black;
     --text-color: rgb(47, 47, 47);
-    --block-color: gray;
+    --block-color: rgb(175, 175, 175);
     --bg: white;
 }
 
