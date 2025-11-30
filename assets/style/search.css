@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .search__container {
         width: 600px
 
@@ -15,7 +15,7 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 700px) {
     .search__container {
         width: 300px;
     }   
