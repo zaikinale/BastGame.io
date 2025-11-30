@@ -1,0 +1,15 @@
+
+
+.advantages__container {
+    width: 100%;
+}
+
+.advantages__card {
+    width: 200px;
+    height: 200px;
+}
+
+.advantages__img {
+    width: 100px;
+    height: inherit;
+}

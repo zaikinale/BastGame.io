@@ -44,6 +44,8 @@ h2 {
 h3 {
     font-family: 'Inter';
     font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
 }
 
 h4 {
@@ -66,7 +68,7 @@ button, a, p, span {
 .block {
     background-color: var(--block-color);
     padding: 10px 10px;
-    border: 2px solid var(--text-color);
+    border: 5px solid var(--text-color);
 }
 
 .df {
