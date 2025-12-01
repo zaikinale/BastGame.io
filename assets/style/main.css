@@ -9,10 +9,18 @@
 @import url('./slider.css');
 
 :root {
-    --title-color:  black;
-    --text-color: rgb(47, 47, 47);
-    --block-color: rgb(175, 175, 175);
-    --bg: white;
+    --bg: #0f0f1b;
+    --block-color: #1a1a2e;
+    --text-color: #e6e6ff;
+    --text-secondary: #a0a0c0;
+    --title-color: #ffffff;
+    --border-color: #2d2d44;
+    --accent: #00f0ff;
+    --accent-hover: #00c2cc;
+}
+
+body {
+    background-color: var(--bg);
 }
 
 * {
@@ -65,6 +73,10 @@ button, a, p, span {
     font-size: 18px;
 }
 
+span {
+    color: var(--text-secondary)
+}
+
 .container {
     padding: 30px 20px;
     width: 1000px;
@@ -74,7 +86,7 @@ button, a, p, span {
 .block {
     background-color: var(--block-color);
     padding: 10px 10px;
-    border: 3px solid var(--text-color);
+    border: 3px solid var(--border-color);
 }
 
 .df {
@@ -119,7 +131,8 @@ button, a, p, span {
 
 .btn {
     padding: 10px 20px;
-    background-color: var(--bg);
+    color: var(--bg);
+    background-color: var(--accent);
 }
 
 @media (max-width: 1000px) {

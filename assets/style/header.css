@@ -3,6 +3,8 @@
     top: 0;
     z-index: 1000;
     padding: 10px 40px;
+    background-color: var(--block-color);
+    border-bottom: 2px solid var(--border-color);
 }
 
 .header__img {
