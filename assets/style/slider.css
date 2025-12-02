@@ -9,16 +9,20 @@
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    position: relative;
 }
 
 .slider__slide--active {
     display: flex;
     flex-direction: column;
     background-image: url('../media/game_img/slime_game.jpg');
+    border: 3px solid var(--border-color);
 }
 
 .slider__desc {
+    position: absolute;
+    bottom: 30px;
     width: 400px;
 }
 
@@ -39,7 +43,7 @@
 }
 
 .slider__control {
-    bottom: 40px;
+    bottom: 10px;
     position: absolute;
 }
 
