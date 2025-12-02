@@ -23,7 +23,7 @@
 .slider__desc {
     position: absolute;
     bottom: 30px;
-    width: 400px;
+    width: 300px;
 }
 
 .slider__btn {
@@ -52,11 +52,6 @@
     .slider__slide {
         width: 600px;
         height: 400px;
-    }
-
-    .slider__desc {
-        width: 300px;
-        height: 200px;
     }
 }
 
