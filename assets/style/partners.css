@@ -1,11 +1,10 @@
-
 .partners__container {
     width: 100%;
+    background-color: var(--text-secondary);
 }
 
 .partners__card {
     width: 200px;
-    height: 200px;
 }
 
 .partners__img {

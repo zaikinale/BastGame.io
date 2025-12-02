@@ -1,10 +1,12 @@
-
+.slider {
+    position: relative;
+}
 
 .slider__slide {
     display: none;
     padding: 20px;
     width: 900px;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -34,6 +36,11 @@
 .slider__btn--main {
     width: 170px;
     height: inherit;
+}
+
+.slider__control {
+    bottom: 40px;
+    position: absolute;
 }
 
 /* @media (max-width: 768px) { */

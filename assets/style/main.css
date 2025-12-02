@@ -67,14 +67,14 @@ h3 {
     font-size: 24px;
 }
 
-button, a, p, span {
+button, a, p, span, input, input::placeholder {
     color: var(--text-color);
     font-weight: 300;
     font-size: 18px;
 }
 
-span {
-    color: var(--text-secondary)
+span, input, input::placeholder {
+    color: var(--text-secondary);
 }
 
 .container {
