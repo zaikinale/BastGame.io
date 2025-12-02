@@ -76,11 +76,12 @@ button, a, p, span, input, input::placeholder {
 span, input, input::placeholder {
     color: var(--text-secondary);
 }
-a, button {
+
+button {
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-a:hover, a:active, a:focus, button:hover, button:active, button:focus {
+button:hover, button:active, button:focus {
     background-color: var(--accent-hover);
     transform: scale(1.1);
 }
@@ -154,9 +155,8 @@ a:hover, a:active, a:focus, button:hover, button:active, button:focus {
     .container {
         width: 350px;
         padding: 15px 10px;
-        
-    }
-    
-}
 
+    }
+
+}
 
