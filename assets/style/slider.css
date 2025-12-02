@@ -29,11 +29,12 @@
 .slider__btn {
     width: 20px;
     height: 20px;
-    background-color: var(--bg);
+    background-color: var(--accent-hover);
     opacity: 0.5;
 }
 
 .slider__btn--active, .slider__btn--main {
+    background-color: var(--accent);
     opacity: 1;
 }
 
@@ -45,6 +46,7 @@
 .slider__control {
     bottom: 10px;
     position: absolute;
+
 }
 
 @media (max-width: 1000px) {
