@@ -1,3 +1,5 @@
+/* Ипортируем стили компонтов */
+
 @import url('./header.css');
 @import url('./footer.css');
 @import url('./advantages.css');
@@ -7,6 +9,8 @@
 @import url('./fonts.css');
 @import url('./partners.css');
 @import url('./slider.css');
+
+/* Основные цветовые переменные */
 
 :root {
     --bg: #0f0f1b;
@@ -19,6 +23,8 @@
     --accent-hover: #00c2cc;
 }
 
+/* Задаем фон сайта */
+
 body {
     /* background-color: var(--bg); */
     background-image: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%), url('../media/phone_img.jpg');
@@ -26,6 +32,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* Удаление стандартных стилей */
 
 * {
     margin: 0;
@@ -36,6 +44,8 @@ body {
     background: none;
     box-sizing: border-box;
 }
+
+/* Задаем стили заголовков, текста, кнопок, ссылок и полей ввода */
 
 h1, h2, h3 {
     color: var(--title-color);
@@ -89,6 +99,8 @@ button:hover, button:active, button:focus {
     background-color: var(--accent-hover);
     transform: scale(1.1);
 }
+
+/* Задаем стили унитарных классов */
 
 .container {
     padding: 30px 20px;
@@ -147,6 +159,9 @@ button:hover, button:active, button:focus {
     color: var(--bg);
     background-color: var(--accent);
 }
+
+
+/* Адаптив основных унитарных классов */
 
 @media (max-width: 1000px) {
     .container {
