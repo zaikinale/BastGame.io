@@ -20,7 +20,11 @@
 }
 
 body {
-    background-color: var(--bg);
+    /* background-color: var(--bg); */
+    background-image: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%), url('../media/phone_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 * {
