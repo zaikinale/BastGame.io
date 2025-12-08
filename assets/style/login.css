@@ -1,0 +1,19 @@
+
+.login {
+  width: 100vw;
+  height: 30vw;
+}
+
+.login__from {
+  width: 250px;
+}
+
+.login__inp {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: var(--accent-hover);
+}
+
+.login__btn {
+  width: 100%;
+}
