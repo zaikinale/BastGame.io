@@ -63,7 +63,7 @@ h3,
 button,
 a,
 p,
-span {
+span, label {
     font-family: 'Inter', sans-serif;
 }
 
