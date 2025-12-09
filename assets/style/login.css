@@ -11,7 +11,7 @@
 .login__inp, .register__inp {
   width: 100%;
   padding: 10px 15px;
-  background-color: var(--accent-hover);
+  background-color: var(--border-color);
 }
 
 .login__btn, .register__btn {

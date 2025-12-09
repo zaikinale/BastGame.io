@@ -1,0 +1,29 @@
+
+
+.profile__settings {
+  width: 100%;
+}
+
+.profile__subtitle {
+  margin: 0;
+}
+
+.profile__data {
+  padding: 10px 15px;
+}
+
+.profile__item {
+  width: 300px;
+}
+
+.profile__placeholder {
+  width: 120px;
+}
+
+.history__item {
+  width: 200px;
+}
+
+.history__data {
+  width: 100%;
+}
