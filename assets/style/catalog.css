@@ -1,0 +1,30 @@
+.filters {
+  padding: 40px;
+}
+
+.filters > h2 {
+  margin: 0;
+}
+
+.filter__btn {
+  margin-right: 10px;
+}
+
+.filter__item {
+  padding: 10px;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.filters__btn {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .filter__item {
+    display: none;
+  }
+  .filters__btn {
+    display: block;
+  }
+}
