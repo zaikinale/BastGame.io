@@ -1,20 +1,20 @@
 
-.login, .register {
+.login, .register, .panel {
   width: 100vw;
   height: 30vw;
 }
 
-.login__from, .register__from {
+.login__from, .register__from, .panel__form {
   width: 250px;
 }
 
-.login__inp, .register__inp {
+.login__inp, .register__inp, .panel__inp {
   width: 100%;
   padding: 10px 15px;
   background-color: var(--border-color);
 }
 
-.login__btn, .register__btn {
+.login__btn, .register__btn, .panel__btn {
   width: 100%;
 }
 
