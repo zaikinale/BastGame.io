@@ -108,7 +108,7 @@ button:hover, button:active, button:focus {
 .container {
     padding: 30px 20px;
     width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .block {

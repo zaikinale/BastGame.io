@@ -1,5 +1,3 @@
-
-
 .profile__settings {
   width: 100%;
 }
@@ -12,6 +10,10 @@
   padding: 10px 15px;
 }
 
+.history__container {
+  width: 100%;
+}
+
 .profile__item {
   width: 300px;
 }
@@ -21,7 +23,7 @@
 }
 
 .history__item {
-  width: 200px;
+  width: 100%;
 }
 
 .history__data {
