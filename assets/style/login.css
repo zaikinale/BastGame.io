@@ -1,7 +1,6 @@
 
 .login, .register, .panel {
   width: 100vw;
-  height: 30vw;
     flex: 1;
 }
 
