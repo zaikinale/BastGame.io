@@ -10,6 +10,10 @@
   padding: 10px 15px;
 }
 
+.history {
+    flex: 1;
+}
+
 .history__container {
   width: 100%;
 }

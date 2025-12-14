@@ -2,6 +2,7 @@
 .login, .register, .panel {
   width: 100vw;
   height: 30vw;
+    flex: 1;
 }
 
 .login__from, .register__from, .panel__form {
