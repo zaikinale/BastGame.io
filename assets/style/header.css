@@ -7,9 +7,9 @@
     border-bottom: 2px solid var(--border-color);
 }
 
-.header__img {
+.header__logo {
     width: 160px;
-    height: inherit;
+    height: 50px;
     object-fit: contain;
 }
 
